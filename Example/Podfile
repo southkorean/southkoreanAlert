@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'southkoreanAlert_Example' do
+  pod 'southkoreanAlert', :path => '../'
+
+  target 'southkoreanAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
