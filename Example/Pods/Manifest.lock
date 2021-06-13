@@ -1,0 +1,16 @@
+PODS:
+  - southkoreanAlert (0.1.0)
+
+DEPENDENCIES:
+  - southkoreanAlert (from `../`)
+
+EXTERNAL SOURCES:
+  southkoreanAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  southkoreanAlert: 105b8c60de099b7af564eaca0d9fb8ae16c146d6
+
+PODFILE CHECKSUM: b5642ad25131ccf0666077c6790694f128029cbe
+
+COCOAPODS: 1.10.1

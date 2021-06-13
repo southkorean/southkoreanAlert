@@ -1,0 +1,6 @@
+framework module southkoreanAlert {
+  umbrella header "southkoreanAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

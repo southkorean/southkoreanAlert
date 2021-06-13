@@ -1,0 +1,22 @@
+{
+  "name": "southkoreanAlert",
+  "version": "0.1.0",
+  "summary": "A short description of southkoreanAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/peppi@knou.ac.kr/southkoreanAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "peppi@knou.ac.kr": "peppi@knou.ac.kr"
+  },
+  "source": {
+    "git": "https://github.com/peppi@knou.ac.kr/southkoreanAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "southkoreanAlert/Classes/**/*"
+}

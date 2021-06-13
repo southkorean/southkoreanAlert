@@ -7,7 +7,9 @@
 //
 
 import UIKit
+import southkoreanAlert
 
+@available(iOS 13.0, *)
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -20,5 +22,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func touchDidAlert(_ sender: Any) {
+        if #available(IOS 13.0, *) {
+            skAlert(title: "되나", confirm: "확인 클릭") {
+                print("completion handler 까지??")
+            }.show(in: self.view)
+            
+        } else {
+            
+        }
+    }
 }
 
