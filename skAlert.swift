@@ -60,6 +60,7 @@ open class skAlert: UIView {
         confirmButton.addTarget(self, action: #selector(confirmAction), for: .touchUpInside)
     }
 
+    
     open func show(in superview: UIView) {
         setAttribute()
 

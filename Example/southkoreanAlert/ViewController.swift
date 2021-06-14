@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
     @IBAction func touchDidAlert(_ sender: Any) {
         if #available(IOS 13.0, *) {
             skAlert(title: "되나", confirm: "확인 클릭") {
